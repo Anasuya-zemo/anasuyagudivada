@@ -1,0 +1,247 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.all {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://tse3.mm.bing.net/th?id=OIP.-sGPB9sYDMqj3a8uLtYBjgHaEK&pid=Api&P=0);
+  height: 100vh; /*viewport height*/
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-nav {
+  width: 70;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-nav ul li a:hover {
+  font-size: x-small;
+}
+.image:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.img-nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.img-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.wel-txt {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Courier New";
+}
+.wel-txt:hover {
+  font-size: small;
+  font-family: Verdana;
+}
+.abt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(http://getwallpapers.com/wallpaper/full/9/4/b/597872.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans";
+}
+.my {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.test {
+  padding: 40px 100px;
+}
+.test h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://tse2.explicit.bing.net/th?id=OIP.C9hzz-Z3vuFi61nHVN_ZigHaF2&pid=Api&P=0);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.cont {
+  width: 85%;
+  max-width: 600px;
+  background: #eee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 30px 40px;
+  border-radius: 8px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
+.form {
+  border-bottom: 1px solid black;
+  margin: 5px 0px;
+  padding: 6px 20px;
+}
+.form label {
+  font-size: 13px;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Segoe UI";
+}
+.form input,
+.form textarea {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 5px;
+  border: none;
+  background: none;
+}
+button {
+  width: 100%;
+  background-color: orange;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin: 0 px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+body {
+  background: lavender;
+}
+
+.gallery {
+  width: 60%;
+  margin: 30px 300px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.gallery > img {
+  width: 25%;
+  padding: 20px;
+}
+.gal {
+  padding-top: 50px;
+  font-weight: 400;
+  font-style: oblique;
+  font-size: 50px;
+  text-align: center;
+}
+.gallery img:hover {
+  transform: scale(0.7) rotate(-15deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .wel-txt {
+    width: 100%;
+    position: absolute;
+    font-size: small;
+    top: 50%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Courier New";
+  }
+  .image {
+    height: 50px;
+    width: 40px;
+  }
+  .image:hover {
+    transform: none;
+  }
+  .img-nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 6px;
+    font-size: small;
+  }
+  .cont {
+    width: 85%;
+    max-width: 300px;
+    background: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+  }
+  .gal {
+    font-size: 35px;
+    padding-right: 50px;
+  }
+  .gallery {
+    width: 30%;
+    margin: 10px 50px;
+    display: flex;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 120%;
+    padding: 10px;
+  }
+  .test h1 {
+    font-size: 20px;
+  }
+  .test {
+    padding: 20px 50px;
+  }
+  .my {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  .cont h1 {
+    font-size: 20px;
+  }
+  .form label {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .form {
+    padding: 5px 10px;
+  }
+  .form input,
+  .form textarea {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .gal {
+    font-size: 50px;
+  }
+  .gallery {
+    width: 60%;
+    margin: 30px 100px;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 40%;
+    padding: 10px;
+  }
+}
