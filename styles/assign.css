@@ -42,11 +42,11 @@
   text-align: center;
   color: white;
   text-transform: uppercase;
-  font-family: "Courier New";
+  font-family: "Courier New", Courier, monospace;
 }
 .wel-txt:hover {
   font-size: small;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .abt {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -59,7 +59,8 @@
   color: #fff;
   line-height: 2;
   letter-spacing: 1px;
-  font-family: "Lucida Sans";
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .my {
   width: 150px;
@@ -106,7 +107,7 @@
   text-align: left;
   display: block;
   text-transform: uppercase;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .form input,
 .form textarea {
@@ -121,7 +122,6 @@ button {
   background-color: orange;
   text-transform: uppercase;
   margin-top: 8px;
-  margin: 0 px;
   padding: 15px 0;
   cursor: pointer;
 }
@@ -160,7 +160,7 @@ body {
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-family: "Courier New";
+    font-family: "Courier New", Courier, monospace;
   }
   .image {
     height: 50px;
